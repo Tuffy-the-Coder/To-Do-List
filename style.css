@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #048A81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: #06D6A0;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 25px 25px 100px #06D6A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+.title-todolist {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #000;
+    text-shadow: 2px 2px 10px #048A81;
+    margin-top: 5px;
+}
+.list-icon{
+    font-size: 1.6rem;
+}
+.input-container{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.enter-task{
+    height: 25px;
+    border: none;
+    border: 0.5px solid #048A81;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #048A81;
+    padding-left: 10px;
+}
+.enter-task:hover{
+    border: 1.5px solid black;
+}
+.submit-task{
+    height: 25px;
+    width: 60px;
+    background-color: #54C6EB;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border: 0.5px solid #04508a;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #048A81;
+    cursor: pointer;
+}
+.submit-task:hover{
+    border: 1.5px solid black;
+}
+.task-list{
+    background-color: #2DCEC6;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.task{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.task-checkbox{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.task-label{
+    font-family:sans-serif;
+    margin-left: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+.delete-task{
+    font-size: 0.75rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #414141;
+}
+.delete-task:hover {
+    color: #000000;
+}
+.task-done{
+    text-decoration: line-through;
+}

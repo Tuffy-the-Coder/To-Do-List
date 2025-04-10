@@ -9,3 +9,6 @@
 - HTML5
 - CSS3 (custom palette & shadows)
 - JavaScript (DOM manipulation + localStorage)
+
+## 🖥️ Live Demo
+[🔗 GitHub Pages Link](https://tuffy-the-coder.github.io/To-Do-List/)
